@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="state" table="x_58872_needit_needit_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>fred.luddy</sys_created_by>
+            <sys_created_on>2020-01-06 20:07:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e2661374f0ac010b2042b8ca310c70a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2020-01-06 20:07:36</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_58872_needit_needit_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fred.luddy</sys_created_by>
+            <sys_created_on>2020-01-06 20:07:36</sys_created_on>
+            <sys_id>da2661374f0ac010b2042b8ca310c707</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_needit_task_state</sys_update_name>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2020-01-06 20:07:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8c3a1df3dbd99f000e785d00cf9619ff</instance_id>
+        <instance_name>dev56135</instance_name>
+        <name>sys_choice_x_58872_needit_needit_task_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="state" table="x_58872_needit_needit_task" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Closed Complete</label><language>en</language><name>x_58872_needit_needit_task</name><sequence>2</sequence><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2020-01-06 20:07:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1e2661374f0ac010b2042b8ca310c70a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2020-01-06 20:07:36</sys_updated_on><value>3</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>state</element><name>x_58872_needit_needit_task</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2020-01-06 20:07:36</sys_created_on><sys_id>da2661374f0ac010b2042b8ca310c707</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_choice_x_58872_needit_needit_task_state</sys_update_name><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2020-01-06 20:07:36</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1960910830</payload_hash>
+        <record_name>Task.state</record_name>
+        <reverted_from/>
+        <source>73cafde24f8ac010b2042b8ca310c747</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-06 23:11:54</sys_created_on>
+        <sys_id>f1501a7b4f8ac010b2042b8ca310c7a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f7d2107040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-06 23:11:54</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>7d501a7b108ac0104d594b3239e72ca7</update_guid>
+        <update_guid_history>7d501a7b108ac0104d594b3239e72ca7:1960910830,f9501a7b468ac010b32c0b0441200fa4:1118168610,92266137d50ac010bba037e30da10c0e:-819494391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-01-06 23:11:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>da2661374f0ac010b2042b8ca310c707</sys_id>
+        <sys_metadata>da2661374f0ac010b2042b8ca310c707</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_58872_needit_needit_task_state</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_58872_needit_needit_task_state">f1501a7b4f8ac010b2042b8ca310c7a8</sys_update_version>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-01-06 23:11:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

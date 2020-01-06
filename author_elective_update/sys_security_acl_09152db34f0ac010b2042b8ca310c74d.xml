@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_58872_needit_needit_task</description>
+        <name>x_58872_needit_needit_task</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-01-06 20:02:52</sys_created_on>
+        <sys_id>09152db34f0ac010b2042b8ca310c74d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_09152db34f0ac010b2042b8ca310c74d</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:02:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8c3a1df3dbd99f000e785d00cf9619ff</instance_id>
+        <instance_name>dev56135</instance_name>
+        <name>sys_security_acl_09152db34f0ac010b2042b8ca310c74d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_58872_needit_needit_task</description><name>x_58872_needit_needit_task</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2020-01-06 20:02:52</sys_created_on><sys_id>09152db34f0ac010b2042b8ca310c74d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_needit_task</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_security_acl_09152db34f0ac010b2042b8ca310c74d</sys_update_name><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2020-01-06 20:02:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1645170897</payload_hash>
+        <record_name>x_58872_needit_needit_task</record_name>
+        <reverted_from/>
+        <source>73cafde24f8ac010b2042b8ca310c747</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-01-06 20:02:52</sys_created_on>
+        <sys_id>8d152db34f0ac010b2042b8ca310c750</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f7c73f9380000001</sys_recorded_at>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:02:52</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c5152db3400ac010faa36d806bbde550</update_guid>
+        <update_guid_history>c5152db3400ac010faa36d806bbde550:1645170897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-06 23:11:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2e1ea87f6ad047639b36fc5bdaa49ce1</sys_id>
+        <sys_metadata>09152db34f0ac010b2042b8ca310c74d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">89152db34f0ac010b2042b8ca310c772</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_09152db34f0ac010b2042b8ca310c74d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_09152db34f0ac010b2042b8ca310c74d">8d152db34f0ac010b2042b8ca310c750</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-06 23:11:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
